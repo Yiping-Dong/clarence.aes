@@ -1,0 +1,31 @@
+.top_nav{
+    background-color: #8cc0A7;
+    width: 100%;
+}
+
+.top_nav ul{
+    list-style-type: none;
+    margin:0;
+    margin-left:25%;
+    padding:0;
+    overflow: hidden;
+}
+
+.top_nav li{
+    float: left;
+}
+
+.top_nav li a{
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.left_nav{
+    background-color: #ffacac;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+}
