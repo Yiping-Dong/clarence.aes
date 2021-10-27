@@ -10,7 +10,7 @@ button{
     width: 80%;
     overflow: hidden;
     margin: 20px;
-    margin-left: 10%
+    margin-left: 10%;
 }
 
 .top_nav ul{
@@ -36,6 +36,7 @@ button{
     padding: 0;
     width: 200px;
     background-color: #ECC5C5;
+    padding-top: 50px;
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -60,6 +61,7 @@ button{
     background-size: 100%;
 }
 
+
 .collapsible{
     cursor:pointer;
     padding: 18px;
@@ -74,12 +76,14 @@ button{
     color: #D04623FF;
 }
 
+
 .content {
     padding: 18px;
     padding-left: 20%;
     display: none;
     overflow: hidden;
     text-align: center;
+    text-decoration: none;
   }
 
   .zdog-canvas {
