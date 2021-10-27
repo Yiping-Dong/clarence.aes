@@ -1,14 +1,23 @@
+h1{
+    padding-left: 50%;
+}
+
+button{
+    background: white;
+}
+
 .top_nav{
-    background-color: #8cc0A7;
-    width: 100%;
+    width: 80%;
+    overflow: hidden;
+    margin: 20px;
+    margin-left: 10%
 }
 
 .top_nav ul{
     list-style-type: none;
     margin:0;
-    margin-left:25%;
+    margin-left:40%;
     padding:0;
-    overflow: hidden;
 }
 
 .top_nav li{
@@ -16,16 +25,66 @@
 }
 
 .top_nav li a{
-    display:block;
     color: black;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
 }
 
 .left_nav{
-    background-color: #ffacac;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ECC5C5;
     position: fixed;
-    width: 20%;
     height: 100%;
+    overflow: auto;
+    z-index: 1001;
 }
+
+.left_nav a {
+    display: block;
+    color: black;
+    margin-top: -25px;
+    padding: 30px;
+    text-decoration: none;
+  }
+  
+  .left_nav a:hover:not(.active) {
+    color: #555;
+  }
+  
+.aesthetics-header{
+    padding: 150px;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/77955473-bea2-4ce3-a179-cfcdb603f80f/d7ufk2x-e8b9e299-2864-471d-9c3f-be551880d470.jpg/v1/fill/w_1024,h_569,q_75,strp/nests_by_projectosxar_d7ufk2x-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY5IiwicGF0aCI6IlwvZlwvNzc5NTU0NzMtYmVhMi00Y2UzLWExNzktY2ZjZGI2MDNmODBmXC9kN3VmazJ4LWU4YjllMjk5LTI4NjQtNDcxZC05YzNmLWJlNTUxODgwZDQ3MC5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.v51GLpJNNc_ZSopTC7xBU770bLRkmaysk92z1-rAp90'); /* images need to be URL */
+    background-size: 100%;
+}
+
+.collapsible{
+    cursor:pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20%;
+}
+
+.active, .collapsible:hover {
+    color: #D04623FF;
+}
+
+.content {
+    padding: 18px;
+    padding-left: 20%;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .zdog-canvas {
+    cursor: move;
+    background: #FDB;
+  }
+  
+

@@ -3,12 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Aesthetic</title>
+	<title>Aesthetics</title>
 	<link rel="stylesheet" type="text/css" href="aesthetic.css">
 </head>
-
 <body>
-
+	<script src="https://unpkg.com/zdog@1/dist/zdog.dist.min.js"></script>
     <div class = "top_nav">
         <ul>
             <li><a href = "#">Monarchy</li>
@@ -18,17 +17,57 @@
             <li><a href = "#">Lipids</li>
         </ul>
     </div>
+	<div class="left_nav">
+		<a class="active" href="#design_system">Design System</a>
+		<a href="#dress_codes">Dress Code</a>
+		<a href="#architecture">Architecture</a>
+		<a href="#suggestions">Suggestion Form</a>
+	  </div>
 
-    <div class = "left_nav">
-        <ul>
-            <li>design system</li>
-            <li>dress codes</li>
-            <li>architectures</li>
-        </ul>
-    </div>
-
+	<div class = "aesthetics-header">
+		<h1> Aesthetics Department </h1>
+	</div>
+	<div class="aesthetics">
+		<button type="button" class="collapsible">Design System</button>
+			<div class="content">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<canvas class="zdog-canvas" width="500" height="350"></canvas>
+				<script src="./scripts/mushroom-building.js"></script>
+			</div>
+	</div>
+	<div class="dress-code">
+		<button type="button" class="collapsible">Dress Code</button>
+			<div class="content">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+	</div>
+	<div class="architecture">
+		<button type="button" class="collapsible">Architecture</button>
+			<div class="content">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+	</div>
+	<div class="suggestion-form">
+		<button type="button" class="collapsible">Suggestion Form</button>
+			<div class="content">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+			</div>
+	</div>
 </body>
-
-<script src = "aesthetic.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/85188/jquery.ripples-min.js"></script>
+<script src="./scripts/aesthetic.js"></script>
 
 </html>
