@@ -144,4 +144,64 @@ button{
     opacity:0;
 }
 
+.aesthetics-logo{
+    cursor: move;
+}
+
+.gradient-container {
+    height: 0;
+    width: 0;
+  }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 45%;
+    margin-left: -55px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .color-palette {
+    cursor: move;
+    display: block;
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+  }
+
+  .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 6px;
+  
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    bottom: 50%;
+    margin-left: 25px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+
+
 
