@@ -11,6 +11,10 @@ h1{
     color: white;
 }
 
+li{
+    list-style: none;
+}
+
 p{
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 18px;
@@ -110,9 +114,12 @@ button{
     text-decoration: none;
   }
 
-  .zdog-canvas {
+  .mushroom-fashion-1 {
     cursor: move;
-    background: #FDB;
+  }
+
+  .mushroom-fashion-2{
+    cursor: move;
   }
 
   .content h2{
